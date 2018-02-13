@@ -4,6 +4,9 @@
 [![Latest Unstable Version](https://poser.pugx.org/bugbuster/contao-mobiledetection-bundle/v/unstable.svg)](https://packagist.org/packages/bugbuster/contao-mobiledetection-bundle) 
 [![License](https://poser.pugx.org/bugbuster/contao-mobiledetection-bundle/license.svg)](https://packagist.org/packages/bugbuster/contao-mobiledetection-bundle)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/05cb240b60884fbeb5b13fab456662fa)](https://www.codacy.com/app/BugBuster1701/contao-mobiledetection-bundle?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BugBuster1701/contao-mobiledetection-bundle&amp;utm_campaign=Badge_Grade)
+
+
 ## About
 Contao 4 Bundle "Mobile-Detection", based on "http://mobiledetect.net/"
 
