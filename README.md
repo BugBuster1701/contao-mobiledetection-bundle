@@ -1,8 +1,3 @@
-# Notice
-
-Package under development. Do not use in production environment!
-
-
 # Contao Module MobileDetection
 [![Latest Stable Version](https://poser.pugx.org/bugbuster/contao-mobiledetection-bundle/v/stable.svg)](https://packagist.org/packages/bugbuster/contao-mobiledetection-bundle) 
 [![Total Downloads](https://poser.pugx.org/bugbuster/contao-mobiledetection-bundle/downloads.svg)](https://packagist.org/packages/bugbuster/contao-mobiledetection-bundle) 

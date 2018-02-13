@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Contao Open Source CMS, Copyright (C) 2005-2013 Leo Feyer
+ * Contao Open Source CMS, Copyright (C) 2005-2018 Leo Feyer
  *
  * Contao Module "Mobile Detection"
  *
- * @copyright  Glen Langer 2013 <http://www.contao.glen-langer.de>
+ * @copyright  Glen Langer 2018 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    Mobiledetection
  * @license    LGPL
@@ -24,7 +24,7 @@ use BugBuster\MobileDetection\Mobile_Detection;
 /**
  * Class Mobile_Detection_Hooks
  *
- * @copyright  Glen Langer 2013 <http://www.contao.glen-langer.de>
+ * @copyright  Glen Langer 2018 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    Mobiledetection
  */
