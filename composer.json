@@ -1,0 +1,57 @@
+{
+	"name":"bugbuster/contao-mobiledetection-bundle",
+	"description":"Contao 4 helper class for detecting mobile phones and tablets (device type). A Hook adds a CSS class in the body tag.",
+	"keywords":["contao","detection","mobile","phone","tablet"],
+	"type":"contao-bundle",
+	"homepage":"http://contao.ninja",
+	"license":"LGPL-3.0-or-later",
+	"authors":[
+		{
+			"name":"Glen Langer",
+			"homepage":"http://contao.ninja",
+			"role":"Developer"
+		},
+		{
+            "name": "Serban Ghita",
+            "email": "serbanghita@gmail.com",
+            "homepage": "http://mobiledetect.net",
+            "role": "Developer"
+        }
+	],
+	"support":{
+		"issues":"https://github.com/BugBuster1701/contao-mobiledetection-bundle/issues",
+		"irc":"irc://irc.freenode.org/contao.dev",
+		"source":"https://github.com/BugBuster1701/contao-mobiledetection-bundle"
+	},
+	"require":{
+		"php": "^5.6|^7.0",
+		"contao/core-bundle": "~4.4",
+		"mobiledetect/mobiledetectlib": "2.*"
+	},
+	"require-dev": {
+			"contao/manager-plugin": "^2.0"
+	},
+	"conflict": {
+			"contao/manager-plugin": "<2.0 || >=3.0"
+	},
+	"autoload": {
+		"psr-4": {
+					"BugBuster\\MobiledetectionBundle\\": "src/"
+		},
+		"classmap": [
+					"src/Resources/contao/"
+		],
+		"exclude-from-classmap": [
+					"src/Resources/contao/config/",
+					"src/Resources/contao/dca/",
+					"src/Resources/contao/languages/",
+					"src/Resources/contao/templates/"
+		]
+	},
+	"extra": {
+			"branch-alias": {
+				"dev-develop": "1.1.x-dev"
+			},
+			"contao-manager-plugin": "BugBuster\\MobiledetectionBundle\\ContaoManager\\Plugin"
+	}
+}
