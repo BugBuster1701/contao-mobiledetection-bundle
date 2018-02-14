@@ -1,4 +1,4 @@
-# Contao Module MobileDetection
+# Contao 4 Bundle "Mobile-Detection"
 [![Latest Stable Version](https://poser.pugx.org/bugbuster/contao-mobiledetection-bundle/v/stable.svg)](https://packagist.org/packages/bugbuster/contao-mobiledetection-bundle) 
 [![Total Downloads](https://poser.pugx.org/bugbuster/contao-mobiledetection-bundle/downloads.svg)](https://packagist.org/packages/bugbuster/contao-mobiledetection-bundle) 
 [![Latest Unstable Version](https://poser.pugx.org/bugbuster/contao-mobiledetection-bundle/v/unstable.svg)](https://packagist.org/packages/bugbuster/contao-mobiledetection-bundle) 
@@ -12,11 +12,17 @@ Contao 4 Bundle "Mobile-Detection", based on "http://mobiledetect.net/"
 
 Helperclasses for developer. Demo frontend module is present.
 
+
 ## Installation
 
-### Over Composer
+### With Contao Manager
 * Search for [bugbuster/contao-mobiledetection-bundle](https://packagist.org/packages/bugbuster/contao-mobiledetection-bundle)
-* composer loads additionally "mobiledetect/mobiledetectlib" version 2.*
+* Composer loads additionally "mobiledetect/mobiledetectlib" version 2.*
+
+### With Composer
+* `composer require bugbuster/contao-mobiledetection-bundle`
+* Composer loads additionally "mobiledetect/mobiledetectlib" version 2.*
+
 
 ## Hooks help!
 A Hook add a special class to page css class (in body tag):
