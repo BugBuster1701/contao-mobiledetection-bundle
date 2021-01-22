@@ -30,13 +30,10 @@
  * Use function array_insert() to modify an existing CTE array.
  */
 
-array_insert($GLOBALS['FE_MOD'], 4, array
+$GLOBALS['FE_MOD']['MobileDetectionDemo'] = array 
 (
-    'MobileDetectionDemo' => array
-    (
-        'mobiledeviceinfo' => 'BugBuster\MobileDetection\ModuleDeviceInfo',
-    )
-));
+    'mobiledeviceinfo' => 'BugBuster\MobileDetection\ModuleDeviceInfo'
+);
 
 /**
  * -------------------------------------------------------------------------
